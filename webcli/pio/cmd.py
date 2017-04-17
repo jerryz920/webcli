@@ -9,7 +9,7 @@ import subprocess
 mapper = Blueprint('pio-mgmt-api', __name__)
 script_home = "/var/lib/webcli/scripts/pio/"
 
-@mapper.route("/pio/new")
+@mapper.route("/pio/start")
 def start():
     return subprocess.check_output(script_home + "start.sh")
 
