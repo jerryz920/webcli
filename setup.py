@@ -12,3 +12,9 @@ setup(
         scripts=["bin/mgmt-proxy"]
         )
 
+# install scripts
+os.mkdir("/var/lib/webcli", 0755)
+subprocess.call(["cp", "-r", "scripts", "/var/lib/webcli"])
+
+
+
