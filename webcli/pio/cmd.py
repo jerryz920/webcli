@@ -28,3 +28,7 @@ def train():
 @mapper.route("/pio/deploy")
 def deploy():
     return subprocess.check_output(script_home + "deploy.sh")
+
+@mapper.route("/pio/show")
+def show():
+    return subprocess.check_output(script_home + "show.sh")

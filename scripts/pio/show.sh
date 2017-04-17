@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo show script
+cd /pioapp
+pio app show classify

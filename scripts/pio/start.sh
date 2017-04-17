@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo start script
-#pio-start-all
+#echo start script
+pio-start-all
